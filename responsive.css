@@ -1,0 +1,108 @@
+@media only screen and (max-width: 600px) {
+    div.nav-bar {
+        display: flex;
+        padding: 0.6rem 0.8rem;
+        width: 100vw;
+        background: #304353;
+    }
+    
+    .logo {
+        font-size: 0.8rem;
+        color: #bcc3c7;
+    }
+    ul.nav-links {
+        /* display: inline-block; */
+        margin: 0 1.6rem;
+        padding: 0;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        /* visibility: visible; */
+        display: none;
+        background-color:  #304353;
+    }
+    ul li {
+        margin: 5vw 2vw;
+        list-style: none;
+        font-size: 1.1rem;
+        
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: #88949B;
+        padding: 0.5vw;
+        width: 200px;
+    }
+    .menu-icon{
+        display: block;
+        color: #fff;
+        font-size: 1.6rem;
+        cursor: pointer;
+        
+          
+    }
+    
+    div.hero-section{
+        padding: 5rem;
+    }
+    div.hero-content-heading h3{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        font-weight: 300; 
+    }
+    
+div.hero-content-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+div.hero-background {
+    background: #f0f0f0;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.background {
+    background: #fff;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    padding: 10px 0px;
+    width: 550px;
+    height: 250px;
+    position: relative;
+}
+div.hero-background-pos {
+    position: absolute;
+    right: 0px;
+    left: 72%;
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+.snapshot-box-content{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 3rem;
+}
+div.footer {
+    background: #304353;
+    padding: 1rem;
+}
+div.background{
+    background: #fff;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    padding: 5px 0px;
+    width: 650px;
+    height: 480px;
+    position: relative;
+}
+div.background p{
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+  }
